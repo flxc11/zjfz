@@ -1,0 +1,436 @@
+body {
+  background: #f6f6f6 url("../images/bgsite01.jpg") center repeat-y;
+}
+.wrap {
+  width: 960px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+/*header*/
+.header {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.header .logo {
+  float: left;
+  width: auto;
+}
+.tools {
+  float: right;
+  width: auto;
+  overflow: hidden;
+}
+.tools .tools-1 {
+  margin-top: 24px;
+  line-height: 24px;
+  color: #666;
+  padding-right: 10px;
+  float: right;
+}
+.tools .search {
+  margin: 10px 6px 0 0;
+  width: 196px;
+  height: 20px;
+  border: 1px solid #ddd;
+  padding: 4px;
+  float: right;
+  clear: right;
+}
+.ipt {
+  width: 166px;
+  height: 20px;
+  padding-left: 10px;
+  line-height: 20px;
+  border: 0;
+  float: left;
+  color: #999;
+}
+.submit {
+  width: 20px;
+  height: 20px;
+  background: url("../images/btnsearch.jpg");
+  border: 0;
+  cursor: pointer;
+  float: right;
+}
+/*nav*/
+.nav {
+  width: 100%;
+  height: 42px;
+  border-top: 3px solid #d0131b;
+  background: #104c8b;
+}
+.nav ul {
+  padding-left: 10px;
+}
+.nav ul li {
+  float: left;
+  padding: 0 14px;
+  line-height: 42px;
+  background: url("../images/bgnav.jpg") no-repeat right center;
+}
+.nav ul li a {
+  font: normal 14px/42px "微软雅黑", "Microsoft YaHei", "宋体", "SimSun", "黑体", "SimHei";
+  color: #fff;
+}
+.nav ul li a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.banner {
+  margin-top: 10px;
+}
+/*container*/
+.container {
+  width: 100%;
+  overflow: hidden;
+}
+.r-1 {
+  float: right;
+  width: 240px;
+  overflow: hidden;
+}
+.h2 {
+  border: 1px solid #ddd;
+  border-bottom: 1px solid #104c8b;
+  height: 34px;
+  line-height: 34px;
+  background: #f7f7f7;
+}
+.more {
+  float: right;
+  padding-right: 12px;
+}
+.col-name {
+  float: left;
+  font: bold 16px/34px "微软雅黑", "Microsoft YaHei", "宋体", "SimSun", "黑体", "SimHei";
+  color: #104c8b;
+}
+.icon1 {
+  width: 14px;
+  height: 17px;
+  float: left;
+  background: url("../images/icon1.jpg");
+  margin: 8px 8px 0 12px;
+}
+.icon2 {
+  width: 16px;
+  height: 16px;
+  float: left;
+  background: url("../images/icon2.jpg");
+  margin: 8px 8px 0 12px;
+}
+.ul {
+  padding: 16px 9px 0 5px;
+  overflow: hidden;
+}
+.ul li {
+  float: left;
+  padding-left: 24px;
+  width: 202px;
+  line-height: 34px;
+  border-bottom: 1px dashed #bfbfbf;
+  background: url("../images/iconli.jpg") no-repeat 5px center;
+}
+.u2 {
+  padding: 16px 0 0 0;
+  overflow: hidden;
+  float: left;
+  width: 284px;
+}
+.u2 li {
+  float: left;
+  padding-left: 24px;
+  width: 260px;
+  line-height: 34px;
+  border-bottom: 1px dashed #bfbfbf;
+  background: url("../images/iconli.jpg") no-repeat 5px center;
+}
+.m-1 {
+  width: 450px;
+  float: right;
+  overflow: hidden;
+  margin-right: 15px;
+  display: inline;
+}
+.p1 {
+  float: left;
+  padding: 4px;
+  border: 1px solid #ddd;
+  margin: 13px 17px 0 6px;
+}
+.l-1 {
+  float: left;
+  width: 240px;
+  height: 260px;
+  background: url("../images/imggzllz.jpg");
+  overflow: hidden;
+}
+.l-1 h2 {
+  height: 52px;
+}
+.l-1 h2 span.more {
+  font: 12px/34px "微软雅黑", "Microsoft YaHei", "宋体", "SimSun", "黑体", "SimHei";
+}
+.l-1 h2 span.more a:link,
+.l-1 h2 span.more a:visited,
+.l-1 h2 span.more a:hover,
+.l-1 h2 span.more a:active {
+  color: #fff;
+}
+.l-1 ul {
+  padding: 0 16px 0 16px;
+  overflow: hidden;
+}
+.l-1 ul li {
+  width: 192px;
+  padding-left: 16px;
+  height: 34px;
+  font: normal 12px/34px "微软雅黑", "Microsoft YaHei", "宋体", "SimSun", "黑体", "SimHei";
+  margin-bottom: 6px;
+}
+.li1 {
+  background: url("../images/bgli1.jpg");
+}
+.li2 {
+  background: url("../images/bgli2.jpg");
+}
+.li3 {
+  background: url("../images/bgli3.jpg");
+}
+.li4 {
+  background: url("../images/bgli4.jpg");
+}
+.li5 {
+  background: url("../images/bgli5.jpg");
+}
+.contact-h2 {
+  line-height: 50px;
+  padding-left: 44px;
+  background: url("../images/icon3.jpg") no-repeat 21px center;
+  font: bold 16px/50px "微软雅黑", "Microsoft YaHei", "宋体", "SimSun", "黑体", "SimHei";
+  color: #104c8b;
+}
+.contact {
+  width: 240px;
+  height: 260px;
+  overflow: hidden;
+  background: url("../images/bgcontact.jpg") no-repeat 0 0;
+}
+.bk {
+  width: 172px;
+  padding: 15px;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin: 0 auto;
+}
+.friend {
+  width: 958px;
+  overflow: hidden;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  height: 40px;
+  background: #f6f6f6;
+}
+.friend h2 {
+  width: 77px;
+  height: 20px;
+  font: bold 16px/20px "微软雅黑", "Microsoft YaHei", "宋体", "SimSun", "黑体", "SimHei";
+  color: #104c8b;
+  float: left;
+  margin: 10px 16px;
+  padding-left: 23px;
+  background: url("../images/icon4.jpg") no-repeat 0 center;
+  border-right: 1px solid #ddd;
+}
+.friend ul {
+  overflow: hidden;
+}
+.friend ul li {
+  float: left;
+  padding: 0 5px;
+  line-height: 40px;
+}
+.footer {
+  border-top: 4px solid #d0131b;
+  background: #104c8b;
+  width: 100%;
+  height: 108px;
+  overflow: hidden;
+}
+.infooter {
+  width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.tj {
+  float: right;
+  color: #98c2ed;
+  line-height: 48px;
+}
+.copy {
+  float: left;
+  color: #98c2ed;
+  line-height: 48px;
+  padding-left: 24px;
+}
+.position {
+  width: 929px;
+  height: 38px;
+  border: 1px solid #ddd;
+  line-height: 38px;
+  color: #5f5f5f;
+  padding-left: 29px;
+  background: url("../images/iconH.jpg") no-repeat 10px center #f7f7f7;
+  margin-top: 12px;
+}
+.con-r {
+  float: right;
+  width: 747px;
+  min-height: 500px;
+  overflow: hidden;
+  margin-top: 14px;
+}
+.con-r h2 {
+  font: normal 20px/38px "微软雅黑", "Microsoft YaHei", "宋体", "SimSun", "黑体", "SimHei";
+  color: #454545;
+  background: url("../images/bgh2.jpg");
+}
+.con-r h2 span {
+  padding-right: 8px;
+  background: #fff;
+}
+.con-l {
+  float: left;
+  width: 190px;
+  overflow: hidden;
+  margin-top: 14px;
+}
+.news-list {
+  width: 100%;
+  overflow: hidden;
+}
+.news-list ul li {
+  line-height: 37px;
+  border-bottom: 1px dashed #ccc;
+  background: url("../images/iconli.jpg") no-repeat 5px center;
+  padding-left: 34px;
+  width: 713px;
+}
+.news-list ul li span {
+  float: right;
+}
+.column {
+  width: 100%;
+  overflow: hidden;
+}
+.column h2 {
+  padding-left: 18px;
+  background: url("../images/bgcollumn1.jpg");
+  font: bold 14px/38px "微软雅黑", "Microsoft YaHei", "宋体", "SimSun", "黑体", "SimHei";
+  color: #fff;
+}
+.column ul li {
+  width: 100%;
+  float: left;
+  height: 37px;
+}
+.column ul li a {
+  width: 171px;
+  padding-left: 19px;
+  height: 37px;
+  display: block;
+  font: normal 12px/37px "宋体";
+  color: #464646;
+  background: url("../images/bgcolli1.jpg");
+}
+.column ul li a:hover {
+  color: #104c8b;
+  background: url("../images/bgcolli2.jpg");
+}
+.news-cnt {
+  width: 100%;
+  min-height: 500px;
+  margin: 0 auto;
+}
+.title {
+  font: 20px/40px "微软雅黑", "Microsoft YaHei", "宋体", "SimSun", "黑体", "SimHei";
+  color: #104c8b;
+  padding-top: 10px;
+  text-align: center;
+  width: 100%;
+}
+#share {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 15px;
+  border-bottom: 1px dashed #ddd;
+  font: normal 12px/30px "宋体";
+  background: transparent;
+}
+.cnt {
+  padding: 15px 10px;
+  color: #464646;
+  line-height: 30px;
+}
+.pic-list {
+  width: 100%;
+  overflow: hidden;
+}
+.picl {
+  width: 340px;
+  float: left;
+  height: 132px;
+  margin-right: 30px;
+  margin-top: 28px;
+  overflow: hidden;
+}
+.picl dt {
+  float: right;
+  width: 220px;
+  line-height: 25px;
+  border-bottom: 1px dashed #ccc;
+}
+.picl dd.pic {
+  float: left;
+  width: 100px;
+  height: 132px;
+}
+.picl dd.pic img {
+  width: 100px;
+  height: 132px;
+}
+.picl dd.txt {
+  float: right;
+  width: 220px;
+  overflow: hidden;
+}
+.picl dd.txt span.txt-span {
+  background: url("../images/bgspantxt.png");
+  line-height: 28px;
+  display: block;
+}
+.picl dd.txt span.btn-span {
+  width: 84px;
+  height: 20px;
+  margin-top: 14px;
+  display: block;
+}
+.picl dd.txt span.btn-span a {
+  width: 74px;
+  padding-left: 10px;
+  background: url("../images/spanbg1.png");
+  height: 20px;
+  line-height: 20px;
+  display: block;
+  color: #fff;
+}
+.picl dd.txt span.btn-span a:hover {
+  background: url("../images/spanbg2.png");
+}
+.NewsPage {
+  margin: 20px 0;
+  text-align: center;
+}

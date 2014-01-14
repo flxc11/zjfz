@@ -1,0 +1,79 @@
+@charset "utf-8";
+.xgzj .T {
+  width: 958px;
+  height: 40px;
+  background: #f7f7f7 url("../images/bgxgzj.jpg");
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  overflow: hidden;
+  margin-top: 15px;
+}
+.sp-xgzj {
+  float: left;
+  padding-left: 34px;
+  font: bold 16px/38px "微软雅黑", "Microsoft YaHei", "宋体", "SimSun", "黑体", "SimHei";
+  color: #104c8b;
+  background: url("../images/iconxgzj.jpg") no-repeat 13px center;
+}
+.xgzj .T a {
+  width: 80px;
+  height: 40px;
+  float: right;
+  text-align: center;
+  display: block;
+  font: bold 12px/40px "微软雅黑", "Microsoft YaHei", "宋体", "SimSun", "黑体", "SimHei";
+  color: #454545;
+}
+.xgzj .T a:hover {
+  color: #454545;
+  font-weight: bold;
+  background: url("../images/bgtab1.jpg") no-repeat;
+}
+.xgzj .T a.index_tabshover:link,
+.xgzj .T a.index_tabshover:visited,
+.xgzj .T a.index_tabshover:hover,
+.xgzj .T a.index_tabshover:active {
+  width: 80px;
+  height: 40px;
+  float: right;
+  text-align: center;
+  display: block;
+  background: url("../images/bgtab1.jpg") no-repeat;
+  font: bold 12px/41px "微软雅黑", "Microsoft YaHei", "宋体", "SimSun", "黑体", "SimHei";
+  color: #454545;
+}
+.xgzj .C {
+  width: 100%;
+  overflow: hidden;
+  padding-top: 18px;
+}
+.xgzj .C ul {
+  padding: 0 15px;
+}
+.xgzj .C ul li {
+  width: 110px;
+  line-height: 20px;
+  float: left;
+  text-align: center;
+  margin-right: 15px;
+}
+.xgzj .C ul li a {
+  color: #2e5c93;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.xgzj .C ul li a:hover {
+  color: #2e5c93;
+}
+.xgzj .C ul li img {
+  width: 110px;
+  height: 150px;
+  margin-bottom: 8px;
+}
+.cnvp-tabs-hide {
+  position: absolute;
+  left: 0;
+  top: -9999px;
+  text-indent: -9999px;
+}
